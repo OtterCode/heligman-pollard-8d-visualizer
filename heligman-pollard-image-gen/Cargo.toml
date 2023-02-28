@@ -1,0 +1,11 @@
+[package]
+name = "heligman-pollard-image-gen"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name="heligman_pollard_image_gen"
+crate-type = ["cdylib"]
+
+[dependencies]
+plotters = "0.3.4"
